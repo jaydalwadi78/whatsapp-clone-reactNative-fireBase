@@ -1,0 +1,42 @@
+{
+  "name": "whatsappapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "await-to-js": "^2.1.1",
+    "bcrypt": "^5.0.0",
+    "bcrypt-promise": "^2.0.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "expo-server-sdk": "^3.6.0",
+    "express": "^4.17.1",
+    "firebase": "^8.3.0",
+    "firebase-admin": "^9.5.0",
+    "firebase-functions": "^3.13.2",
+    "fs": "0.0.1-security",
+    "image-data-uri": "^2.0.1",
+    "joi": "^17.2.1",
+    "moment": "^2.29.0",
+    "morgan": "^1.10.0",
+    "otplib": "^12.0.0-3",
+    "parse-error": "^0.2.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "promise": "^8.1.0",
+    "pug": "^3.0.0",
+    "serve-favicon": "^2.5.0",
+    "speakeasy": "^2.0.0",
+    "validator": "^13.1.17"
+  }
+}
